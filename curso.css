@@ -1,0 +1,15 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+:root{
+    --verde-claro:#9af6b1;
+    --verde-escuro: #03725b;
+    --cinza: #cccccc;
+}
+
+header {
+    background-color: var(--verde-claro);
+    text-align: center;
+}
