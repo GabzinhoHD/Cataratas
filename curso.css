@@ -3,13 +3,78 @@
     padding: 0;
     margin: 0;
 }
+
 :root{
     --verde-claro:#9af6b1;
-    --verde-escuro: #03725b;
+    --verde-escuro: #396457;
     --cinza: #cccccc;
+    --cinza-escuro: #4e4f51;
 }
+
+/*Fundo*/
+body{
+    font-family: "Ubuntu Sans"; 
+    margin-top: 5px;
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-bottom: 20px;
+
+    background-color:#cccccc ;
+}
+.main{
+    background-color: white;
+}
+
+#content {
+    margin: auto;
+    max-width: 850px;
+}
+
+/*Cabeçalho*/
 
 header {
     background-color: var(--verde-claro);
     text-align: center;
 }
+
+#header h1{
+    color: black;
+}
+
+.menu li{
+    display: inline-block;
+    margin-left: 2px;
+    border: 1px solid #7cdf90;
+    background-color: #7fe19e;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+a{
+    text-decoration: none;
+    color: navy; 
+}
+/*Textos*/
+h1{
+    margin-top: 30px;
+    color: var(--verde-escuro);
+}
+
+h2{
+    color: var(--cinza-escuro);
+}
+
+p{
+    margin-top: 30px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    text-indent: 2.2em;
+}
+
+#content li{
+    text-indent: 2em;
+}
+img.mapa { 
+    width: 50%;
+}
+
